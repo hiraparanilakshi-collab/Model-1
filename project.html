@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce Website</title>
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">ShopEase</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#cart">Cart</a></li>
+        <li><a href="#payment">Payment</a></li>
+        <li><a href="#orders">Orders</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Homepage -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Welcome to ShopEase</h1>
+      <p>Best Online Shopping Website</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories">
+    <h2>Categories</h2>
+    <div class="category-container">
+      <div class="card">
+        <img src="fashion.jpg" alt="Fashion">
+        <h3>Fashion</h3>
+      </div>
+
+      <div class="card">
+        <img src="electronics.jpg" alt="Electronics">
+        <h3>Electronics</h3>
+      </div>
+
+      <div class="card">
+        <img src="homedecore.jpg" alt="Home Decor">
+        <h3>Home Decor</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products">
+    <h2>Products</h2>
+    <div class="product-container">
+      <div class="card">
+        <img src="shoes.jpg" alt="Shoes">
+        <h3>Sports Shoes</h3>
+        <p class="price">₹1999</p>
+        <a href="#cart" class="btn">Add to Cart</a>
+      </div>
+
+      <div class="card">
+        <img src="laptop.jpg" alt="Laptop">
+        <h3>Laptop</h3>
+        <p class="price">₹59999</p>
+        <a href="#cart" class="btn">Add to Cart</a>
+      </div>
+
+      <div class="card">
+        <img src="smartwatch.jpg" alt="Watch">
+        <h3>Smart Watch</h3>
+        <p class="price">₹4999</p>
+        <a href="#cart" class="btn">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart -->
+  <section id="cart">
+    <h2>Shopping Cart</h2>
+    <div class="cart-container">
+      <div class="card">
+        <h3>Sports Shoes</h3>
+        <p>Quantity: 1</p>
+        <p class="price">₹1999</p>
+      </div>
+
+      <div class="card">
+        <h3>Smart Watch</h3>
+        <p>Quantity: 1</p>
+        <p class="price">₹4999</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Payment -->
+  <section id="payment">
+    <h2>Payment</h2>
+    <form>
+      <input type="text" placeholder="Card Holder Name" required>
+      <input type="text" placeholder="Card Number" required>
+      <input type="month" required>
+      <input type="password" placeholder="PIN" required>
+      <button type="submit">Pay Now</button>
+    </form>
+  </section>
+
+  <!-- Login -->
+  <section id="login">
+    <h2>Login</h2>
+    <form>
+      <input type="email" placeholder="Enter Email" required>
+      <input type="password" placeholder="Enter Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <!-- Register -->
+  <section id="register">
+    <h2>Register</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Create Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Order History -->
+  <section id="orders">
+    <h2>Order History</h2>
+    <div class="order-container">
+      <div class="card">
+        <h3>Order 1001</h3>
+        <p>Sports Shoes</p>
+        <p>Status: Delivered</p>
+      </div>
+
+      <div class="card">
+        <h3>Order 1002</h3>
+        <p>Smart Watch</p>
+        <p>Status: Shipped</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Profile -->
+  <section id="profile">
+    <h2>My Profile</h2>
+    <div class="profile-container">
+      <div class="card">
+        <h3>Name</h3>
+        <p>Nilakshi Hirapara</p>
+      </div>
+
+      <div class="card">
+        <h3>Email</h3>
+        <p>nilakshi@05.com</p>
+      </div>
+
+      <div class="card">
+        <h3>Address</h3>
+        <p>Ahmedabad, Gujarat</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <div class="about">
+      <p>
+        ShopEase is a modern e-commerce website designed for online shopping.
+        Customers can browse categories, view products, add items to cart,
+        make payments, and manage their profiles easily.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <!-- Google Map -->
+      <div class="map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.194091243128!2d72.51659967436866!3d23.053344815180893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b0059c077d3%3A0x1f37febfd97a0357!2sS%20g%20High%20Way!5e0!3m2!1sen!2sin!4v1778822252527!5m2!1sen!2sin"
+          width="100%"
+          height="300"
+          style="border:0; margin-top:20px; border-radius:10px;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 ShopEase | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
